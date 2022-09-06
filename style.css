@@ -1,0 +1,101 @@
+body{
+background-image:url(Images/market.webp);
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+nav{
+background-color: rgb(212, 12, 12);
+border: 2px solid rgb(212, 12, 12);
+color: white;
+padding: 10px;
+ width: 100%; 
+height: 50px;
+position: fixed;
+}
+
+
+/* nesting */
+nav p img{
+
+width: 40px;
+vertical-align: bottom;
+
+
+}
+
+
+
+div{
+
+color: rgb(18, 18, 173);
+margin: auto;
+width: 50%; 
+text-align: center;
+max-width: 30%;
+}
+
+div img{
+
+width: 30%;
+height: 30%;
+margin-top: 100px;
+
+
+}
+ 
+ section span{
+    display: inline-block;
+    width: 25%;
+    background-color: rgb(212, 12, 12);
+    padding: 10px;
+    color: white;
+    margin:10px;
+    text-align: center;
+
+}
+ 
+
+
+
+ span img {
+
+width:100% 
+
+
+
+
+}
+
+
+
+
+
+.bob{
+text-align: center;
+
+
+}
+footer{
+
+    background-color: rgb(212, 12, 12);
+    border: 2px solid rgb(212, 12, 12);
+    color: white;
+    padding: 10px;
+     width: 100%; 
+    height: 50px;
+    text-align: center;
+
+
+
+
+}
+
+
+/* font by grouping  */
+header,footer,span,div{
+    font-family: 'Qwitcher Grypen', cursive;
+
+
+}
